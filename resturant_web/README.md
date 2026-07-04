@@ -1,16 +1,33 @@
-# React + Vite
+## Project Description (Frontend Architecture)
+It is a modern and fully responsive **Frontend (UI)** web application developed using **React.js**.
+### Highlighted Features:
+* **Client-Side State Simulation:** Dynamic actions such as cart operations and review submissions are simulated instantly in the browser memory using React Hooks (`useState`, `useEffect`).
+* **3 Languages and RTL Support:** Switch between Turkish, English, and Arabic. When Arabic is selected, all DOM elements, alignments, and buttons automatically change direction flexibly from right to left (RTL).
+* **Dynamic Filtering and Cart:** Delay-free transitions between menu categories, instant cart updates, and an automatic total amount calculation architecture.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+---
 
-Currently, two official plugins are available:
+## Built With / Kullanılan Teknolojiler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **React.js** (Functional Components, `useState`, `useEffect`)
+* **JavaScript (ES6+)** - Client-side logic & Array methods (`reduce`, `map`, `filter`)
+* **CSS3 Inline Styles** - Conditional dynamic layouts (LTR/RTL toggles)
+* **Vite** - Fast local development & build tool
+---
 
-## React Compiler
+## 🇹🇷 Proje Açıklaması (Frontend Mimarisi)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**React.js** kullanılarak geliştirilmiş, modern ve tamamen duyarlı (responsive) bir **Frontend (Arayüz)** web uygulamasıdır. 
+### Öne Çıkan Özellikleri:
+* **İstemci Tarafı State Simülasyonu:** Sepet işlemleri ve yorum gönderme gibi dinamik aksiyonlar React Hook'ları (`useState`, `useEffect`) ile tarayıcı belleğinde anlık olarak simüle edilir.
+* **3 Dil ve RTL Desteği:** Türkçe, İngilizce ve Arapça geçişi. Arapça seçildiğinde tüm DOM elemanları, hizalamalar ve butonlar otomatik olarak sağdan sola (RTL) esnek bir şekilde yön değiştirir.
+* **Dinamik Filtreleme ve Sepet:** Menü kategorileri arasında gecikmesiz geçiş, anlık sepet güncellemeleri ve otomatik toplam tutar hesaplama mimarisi.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Built With / Kullanılan Teknolojiler
+
+* **React.js** (Functional Components, `useState`, `useEffect`)
+* **JavaScript (ES6+)** - Client-side logic & Array methods (`reduce`, `map`, `filter`)
+* **CSS3 Inline Styles** - Conditional dynamic layouts (LTR/RTL toggles)
+* **Vite** - Fast local development & build tool
