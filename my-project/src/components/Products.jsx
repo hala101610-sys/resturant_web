@@ -4,10 +4,10 @@ function Products({ addToCart, language }) {
   const [activeTab, setActiveTab] = useState('foods');
  
   const foods = [
-    { id: 1, name: { tr: 'Tavuk Şiş', en: 'Chicken Shish', ar: 'شيش طاووق' }, price: 290, img: '/Şiş.jpg' },
+    { id: 1, name: { tr: 'Tavuk Şiş', en: 'Chicken Shish', ar: 'شيش طاووق' }, price: 290, img: '/sis.jpg' },
     { id: 2, name: { tr: 'Lahmacun', en: 'Lahmacun', ar: 'لحم بعجين' }, price: 170, img: '/lahmacun.webp' },
-    { id: 3, name: { tr: 'Kıymalı Pide', en: 'Minced Meat Pide', ar: 'فطيرة باللحم المفروم' }, price: 250, img: '/Kiymali-Pide.jpeg' },
-    { id: 4, name: { tr: 'İskender Kebap', en: 'Iskender Kebab', ar: 'إسكندر كباب' }, price: 420, img: '/iskender-kebab.jpg' },
+    { id: 3, name: { tr: 'Kıymalı Pide', en: 'Minced Meat Pide', ar: 'فطيرة باللحم المفروم' }, price: 250, img: '/Kiymali_Pide.jpeg' },
+    { id: 4, name: { tr: 'İskender Kebap', en: 'Iskender Kebab', ar: 'إسكندر كباب' }, price: 420, img: '/iskender_kebab.jpg' },
   ];
 
   const drinks = [
@@ -18,8 +18,8 @@ function Products({ addToCart, language }) {
 
   const desserts = [
     { id: 8, name: { tr: 'Cheesecake', en: 'Cheesecake', ar: 'تشيز كيك' }, price: 220, img: '/Cheesecake.jpg' },
-    { id: 9, name: { tr: 'Havuçlu Kek', en: 'Carrot Cake', ar: 'كيكة الجزر' }, price: 190, img: '/Havuçlu Kek.jpg' },
-    { id: 10, name: { tr: 'Sütlaç', en: 'Sutlac (Rice Pudding)', ar: 'سوتلاج (أرز بحليب)' }, price: 170, img: '/Sütlaç.jpg' },
+    { id: 9, name: { tr: 'Havuçlu Kek', en: 'Carrot Cake', ar: 'كيكة الجزر' }, price: 190, img: '/Havuclu_Kek.jpg' },
+    { id: 10, name: { tr: 'Sütlaç', en: 'Sutlac (Rice Pudding)', ar: 'سوتلاج (أرز بحليب)' }, price: 170, img: '/Sutlac.jpg' },
   ];
 
   const currentItems = activeTab === 'foods' ? foods : activeTab === 'drinks' ? drinks : desserts;

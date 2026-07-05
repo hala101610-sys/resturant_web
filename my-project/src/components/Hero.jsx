@@ -8,7 +8,7 @@ function Hero({ language }) {
     justifyContent: 'space-between',
     padding: '0 8%',
     backgroundColor: '#222',
-    backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("/enjoy-high-japanese-cuisine.jpg")',
+    backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("/enjoy_high_japanese_cuisine.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     color: '#fff',
