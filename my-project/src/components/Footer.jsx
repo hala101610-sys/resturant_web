@@ -41,7 +41,7 @@ function Footer({ language }) {
             </li>
             <li>
               <a href="#cart" style={{ color: '#aaa', textDecoration: 'none' }}>
-                {language === 'tr' ? 'Sepetim' : language === 'en' ? 'Cart' : 'سلي'}
+                {language === 'tr' ? 'Sepetim' : language === 'en' ? 'Cart' : 'سلتي'}
               </a>
             </li>
             <li>
